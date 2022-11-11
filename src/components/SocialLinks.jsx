@@ -1,20 +1,12 @@
 import React from "react";
-import { FaGithub, FaLinkedin } from "react-icons/fa";
+import { FaGithub, } from "react-icons/fa";
 import { HiOutlineMail } from "react-icons/hi";
-import { BsFillPersonLinesFill } from "react-icons/bs";
+import { BsFillPersonLinesFill, BsTelegram } from "react-icons/bs";
+import resumeIs from "../assets/resume.pdf"
 
 const SocialLinks = () => {
   const links = [
-    {
-      id: 1,
-      child: (
-        <>
-          LinkedIn <FaLinkedin size={30} />
-        </>
-      ),
-      href: "https://linkedin.com",
-      style: "rounded-tr-md",
-    },
+ 
     {
       id: 2,
       child: (
@@ -22,7 +14,7 @@ const SocialLinks = () => {
           GitHub <FaGithub size={30} />
         </>
       ),
-      href: "https://github.com/theyashpatel",
+      href: "https://github.com/itsnotismailov",
     },
     {
       id: 3,
@@ -31,7 +23,16 @@ const SocialLinks = () => {
           Mail <HiOutlineMail size={30} />
         </>
       ),
-      href: "mailto:foo@gmail.com",
+      href: "https://mail.google.com/mail/ismailov10800@gmail.com",
+    },
+    {
+      id: 5,
+      child: (
+        <>
+          Telegram <BsTelegram size={30}/>
+        </>
+      ),
+      href: "https://t.me/aidvemo",
     },
     {
       id: 4,
@@ -40,7 +41,7 @@ const SocialLinks = () => {
           Resume <BsFillPersonLinesFill size={30} />
         </>
       ),
-      href: "/resume.pdf",
+      href: resumeIs,
       style: "rounded-br-md",
       download: true,
     },
