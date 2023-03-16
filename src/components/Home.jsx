@@ -1,5 +1,5 @@
 import React from "react";
-import HeroImage from "../assets/heroImage.png";
+import HeroImage from "../assets/Logo.JPG";
 import { MdOutlineKeyboardArrowRight } from "react-icons/md";
 import { Link } from "react-scroll";
 
@@ -17,8 +17,8 @@ const Home = () => {
            <br/>Front End разработчик
           </h2>
           <p className="text-gray-500 py-4 max-w-md">
-            Я изучаю програмирование, а именно фронт энд разработку уже более 9-месяцев.
-            И на данный момент изучаю Next.js так как он более похож на реакт.
+            Я изучаю програмирование, а именно фронт энд разработку уже более 11-месяцев.
+            И на данный момент изучаю Next.js, так как он более похож на реакт.
           </p>
 
           <div>
@@ -37,12 +37,14 @@ const Home = () => {
         </div>
         <div>
           <img
+          style={{
+            width:"600px"
+          }}
             src={HeroImage}
             alt="my profile"
-            title="Я красавчик"
-            className="rounded-2xl mx-auto  md:w-full shadow-md shadow-black-400"
           />
         </div>
+        <br />
       </div>
     </div>
   );

@@ -1,19 +1,22 @@
 import React from "react";
 import shopClothes from "../assets/portfolio/shopClothes.png";
 import stormShop from "../assets/portfolio/stormShop.png";
+import onlineChat from "../assets/portfolio/online.png";
 
 const Portfolio = () => {
   const portfolios = [
     {
       id: 1,
       src: shopClothes,
-
-     
     },
     {
       id: 2,
       src: stormShop,
     },
+    {
+      id:3,
+      src: onlineChat
+    }
     
   ];
 
